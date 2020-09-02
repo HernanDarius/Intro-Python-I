@@ -56,7 +56,7 @@ elif len(sys.argv) == 3:
         int(sys.argv[1]) and int(sys.argv[2])
         month = int(sys.argv[1])
         year = int(sys.argv[2])
-        print(newCal(month, year))
+        print(calendar_one(month, year))
     except ValueError:
         print('Enter valid month and year')
 else:
